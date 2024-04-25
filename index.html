@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; display: block;margin-top: 5rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(47, 88%, 63%);
+    }
+    #inside{
+      background-color: hsl(0, 0%, 100%);
+      width: 25%;
+      border: black solid;
+        border-radius: 1rem;
+        margin-top: 10vh;
+        margin-left: 75vh; 
+                  box-shadow: 10px 10px;
+      }
+      .align{
+        margin: 1.5rem 0rem 0rem 1.5rem;
+      }
+      .img_1{
+        
+        border-radius: 1rem;
+      }
+      .btn{
+        background-color: hsl(47, 88%, 63%);
+        height: 2rem;
+        border-radius: 7px;
+        font-size: larger;
+        font-weight: 600;
+      }
+      .last{
+        display: flex;
+        gap: 1rem;
+         }
+         .img_2{
+          height: 3rem;
+         }
+         .font{
+          font-family: Figtree;
+         }
+         .ho:hover{
+          color:hsl(47, 88%, 63%);
+         }
+         @media (min-width:200px) and (max-width:576px){
+          #inside{
+            height: 75vh;
+            width: 53vh;
+            margin: 5rem ;
+          }
+         }
+          
+         
+        
+      
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  
+  <div id="inside">
+    
+    <img class="img_1 align" src="./assets/images/illustration-article.svg" alt="illustration-article">
+
+  <button class="align btn font" >Learning</button>
+
+  <h4 class="align font">  Published 21 Dec 2023  </h4>
+ <h2 class="align font ho">HTML & CSS foundations
+</h2> 
+  <p class="align font">These languages are the backbone of every<br> website, defining structure, content, and<br> presentation.</p>
+
+ <div class="align last font">
+  <img  class="img_2 font" src="./assets/images/image-avatar.webp" alt="image-avatar">
+   <h3 class="font">Greg Hooper</h3></div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sudharsan S</a>.
+  </div>
+</body>
+</html>
